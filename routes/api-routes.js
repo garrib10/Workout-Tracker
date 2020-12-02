@@ -1,6 +1,7 @@
 const router = require("express").Router();
 const Workout = require("../models/workout.js");
 
+// app is not defined// 
 app.post("/api/workouts", (req, res) => {
     console.log("New Workout has been addded")
   Workout.create({})
