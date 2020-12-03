@@ -1,4 +1,4 @@
-const router = require("express").Router();
+const  app = require("express").Router();
 const path = require("path");
 
 app.get("/exercise", (req, res) => {

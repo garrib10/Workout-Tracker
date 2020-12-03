@@ -1,22 +1,23 @@
-const router = require("express").Router();
+const app = require("express").Router();
 const Workout = require("../models/workout.js");
 
-// app is not defined// 
-app.post("/api/workouts", (req, res) => {
-    console.log("New Workout has been addded")
-  Workout.create({})
-    .then(dbWorkout => {
+// Getting a 404 error with post request// 
+app.post("/api/workout",(req, res)=>{
+  console.log("Adding a New Workout")
+  Workout.create(req.body)
+  .then(dbWorkout => {
       res.json(dbWorkout);
-    })
-    .catch(err => {
+  })
+  .catch(err => {
       res.status(400).json(err);
-    });
+  });
 });
 
- app.put("/api/workouts/:id", ({ body, params }, res) => {
+ app.put("/api/workouts/:id", (req,res) => {
+   console.logt("Added an exercise")
   Workout.findByIdAndUpdate(
     params.id,
-    { $push: { exercises: body } },
+    { $push: { exercises: req.body }},
     { new: true, runValidators: true }
   )
     .then(dbWorkout => {
@@ -28,7 +29,7 @@ app.post("/api/workouts", (req, res) => {
 });
 
 app.get("/api/workouts", (req, res) => {
-  Workout.find()
+  Workout.find({})
     .then(dbWorkouts => {
       res.json(dbWorkouts);
     })
