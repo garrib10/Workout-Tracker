@@ -30,4 +30,14 @@ Deployed Link: https://frozen-brook-64878.herokuapp.com/
 
 Link to Github Repository: https://github.com/garrib10/Workout-Tracker
 
+## Screenshots 
+
+<img width="1440" alt="Screen Shot 2020-12-03 at 9 18 10 PM" src="https://user-images.githubusercontent.com/68867054/101114289-2585b280-35af-11eb-8374-982899bda199.png">
+
+<img width="1439" alt="Screen Shot 2020-12-03 at 9 18 47 PM" src="https://user-images.githubusercontent.com/68867054/101114306-2fa7b100-35af-11eb-9d55-679c71bdef0e.png">
+
+
+<img width="1440" alt="Screen Shot 2020-12-03 at 9 19 05 PM" src="https://user-images.githubusercontent.com/68867054/101114323-37ffec00-35af-11eb-81d3-470260b904ae.png">
+
+
 
