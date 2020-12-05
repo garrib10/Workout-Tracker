@@ -1,6 +1,6 @@
 ## Unit 17 Nosql Homework: Workout Tracker
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+For this assignment, we were told to  create a workout tracker with the develop folder that was provided by the instructor. We were told to use a Mongo database wtih a Mongoose schema and to work on the api routes and html routes to have this application work properly. We had to create a new server.js file and reconfigure the routes folder so we were able to use api calls within the application. 
 
 ## User Story
 
